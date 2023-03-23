@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "enter the number" Nume
+read -p "enter the string" Chara
+Length=${#Chara}
+ans=$((Nume*Length))
+echo $ans
